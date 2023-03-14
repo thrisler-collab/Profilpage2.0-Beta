@@ -21,3 +21,4 @@ Upcoming:
 * GitHub: Font change
 * GitHub: align the "see on Github"
 * Box Shadows on the sidebar
+* Reduce the speed of the particles
