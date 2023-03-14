@@ -20,3 +20,4 @@ Upcoming:
 * Box Shadow on the header
 * GitHub: Font change
 * GitHub: align the "see on Github"
+* Box Shadows on the sidebar
