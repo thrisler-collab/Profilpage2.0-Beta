@@ -18,3 +18,5 @@ Changes: (14.03.2023)
 Upcoming:
 * Chaning the high of the boxes
 * Box Shadow on the header
+* GitHub: Font change
+* GitHub: align the "see on Github"
