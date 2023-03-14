@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+
+#msg.show{
+    display: grid;
+}
+
+.box{
+  background-color: black;
+  border-radius: 6px;
+  margin-left: 30%;
+  margin-right: 30%;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  margin-top: 15%;
+  position: fixed;
+}
+
+#msg.notshown{
+    display: none;
+}
+
+.tickmsg{
+  width: 34px;
+  height: 34px;
+  margin-top: 10px;
+  z-index: 3;
+}
+
+.tickmsgbox{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  z-index: 3;
+}
+
+h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  font-family: 'Secular One', sans-serif;
+  margin-top: -5px;
+  z-index: 3;
+}
+
+.txtmsg{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 3;
+}
+
+.closemsg{
+  color:dodgerblue;
+  display: flex;
+  justify-content: right;
+  padding: 5px;
+  margin-right: 10px;
+  font-family: 'Play', sans-serif;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  z-index: 3;
+}
+
+@media (max-width: 800px){
+  .box{
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 3;
+  }
+
+  h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family: 'Secular One', sans-serif;
+    font-size: 16px;
+    z-index: 3;
+  }
+}

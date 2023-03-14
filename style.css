@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+.menoption{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.sidebspotify{
+    width: 35px;
+    height: 35px;
+    padding-right: 5px;
+}
+
+.menoption:hover{
+    background-color: rgba(176, 196, 222, 0.542);
+    border-radius: 5px;
+    transition: 500ms ease;
+}
+
+.hd {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+header {
+    background-color: rgba(19, 19, 19, 0.542);
+    display: flex;
+    height: 60px;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+}
+
+.headline {
+    font-family: 'Bungee', cursive;
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    margin-left: 20px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#particles-js {
+    height: 100%;
+    background: RGB(28, 28, 28);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: -1;
+    /* HIER DIE PARITKEL NACH OBEN VERSCHIEBEN */
+}
+
+
+.sidenav {
+    margin-top: 20%;
+    margin-bottom: 25%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(19, 19, 19, 0.542);
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.text {
+    z-index: 2;
+    background: rgba(0, 255, 89, 0.24);
+    position: relative;
+}
+
+button {
+    z-index: 3;
+    position: relative;
+}
+
+.profil {
+    background-color: rgba(19, 19, 19, 0.542);
+    align-items: center;
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 130px;
+    border-radius: 9px;
+    box-shadow: 10px 20px 15px rgb(20,20,20);
+    
+}
+
+.button1 {
+    cursor: pointer;
+}
+
+.close {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    color: white;
+    font-size: 25px;
+    height: 35px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.button1 p {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.profilbild {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.pprofilbild {
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    align-items: center;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: -40px;
+    margin-bottom: -30px;
+}
+
+.tick {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.name {
+    color: white;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bio {
+    color: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio p {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+}
+
+.details {
+    bottom: 15px;
+}
+
+.details ul {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    font-size: 14px;
+    display: grid;
+    justify-content: left;
+}
+
+.details li {
+    margin-bottom: 3px;
+}
+
+.sm {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.sm img {
+    width: 42px;
+    height: 42px;
+    padding: 5px;
+}
+
+.sm a {
+    margin-bottom: 10px;
+}
+
+.details.show {
+    display: block;
+}
+
+.details.notshown {
+    display: none;
+}
+
+.buttns {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.linkico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+button {
+    width: 280px;
+    margin-top: 5px;
+    height: 50px;
+    color: white;
+    background-color: rgba(19, 19, 19, 0.542);
+    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    border-color: White;
+    border-width: 4px;
+}
+
+.sm a:hover {
+    background-color: rgba(176, 196, 222, 0.542);
+    border-radius: 5px;
+    transition: 500ms ease;
+}
+
+button:hover {
+    color: lightsteelblue;
+    border-color: lightsteelblue;
+    transition: 500ms ease;
+}
+
+.footertxt {
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color: rgba(19, 19, 19, 0.542);
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+.sphead {
+    color: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.spicontxt {
+    display: flex;
+    justify-content: left;
+}
+
+.sphead img {
+    padding-right: 10px;
+}
+
+.playlist {
+    display: flex;
+    justify-content: center;
+}
+
+.playlist iframe {
+    padding: 5px;
+}
+
+.closesp {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    color: white;
+    font-size: 25px;
+    height: 0px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.headspo {
+    display: flex;
+}
+
+
+.spotifyapi {
+    background-color: rgba(19, 19, 19, 0.542);
+    align-items: center;
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 90px;
+    border-radius: 9px;
+    box-shadow: 10px 20px 15px rgb(20,20,20);
+
+
+}
+
+.itc {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.badges {
+    display: flex;
+}
+
+.itc :hover{
+    background-color: rgba(176, 196, 222, 0.542);
+    border-radius: 5px;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
+.ho{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ho :hover{
+    background-color: rgba(176, 196, 222, 0);
+}
+
+.itc a{
+    text-decoration: none;
+}
+
+.playlist.show{
+    display: flex;
+}
+
+.playlist.notshown{
+    display: none;
+}
+
+.itc.show{
+    display: block;
+}
+
+.itc.notshown{
+    display: none;
+}
+
+.gitproject{
+    display: block;
+   background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+    padding: 10px;
+    color: white !important;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.gitproject a{
+    color: white !important;
+
+}
+
+.gitproject.show {
+    display: block;
+}
+
+.gitproject.notshown{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .sidenav{
+        display: none;
+    }
+
+    .playlist.show{
+        display: block !important;
+    }
+
+    .profil {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    button {
+        width: 200px;
+        margin-top: 15px;
+        height: 50px;
+        color: white;
+        background-color: rgba(19, 19, 19, 0.542);
+        border-radius: 30px;
+        font-family: 'Oswald', sans-serif;
+        border-color: White;
+        border-width: 4px;
+        z-index: 2;
+    }
+
+    .sm {
+        align-items: center;
+        display: block;
+        justify-content: center;
+        margin-bottom: 22px;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        user-select: none;
+    }
+
+    .buttns {
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        user-select: none;
+    }
+
+    .spotifyapi {
+        background-color: rgba(19, 19, 19, 0.542);
+        align-items: center;
+        position: relative;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 130px;
+        border-radius: 9px;
+    }
+
+    .playlist {
+        display: block;
+    }
+
+    .badges {
+        display: block;
+    }
+}
