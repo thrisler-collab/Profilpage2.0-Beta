@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 a {
     text-decoration: none;
@@ -45,7 +46,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    left: 0;
+    box-shadow: 10px 20px 15px rgb(20,20,20);
 }
 
 .headline {
@@ -85,8 +86,8 @@ body {
 
 
 .sidenav {
-    margin-top: 20%;
-    margin-bottom: 25%;
+    margin-top: 15%;
+
     width: 160px;
     position: fixed;
     z-index: 1;
@@ -96,7 +97,10 @@ body {
     border-bottom-right-radius: 9px;
     border-top-right-radius: 9px;
     overflow-x: hidden;
-    padding-top: 20px;
+    box-shadow: 10px 20px 15px rgb(20,20,20);
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
 }
 
 .text {
@@ -294,13 +298,13 @@ button:hover {
     background-color: rgba(19, 19, 19, 0.542);
     border-radius: 10px;
     color: white;
+    box-shadow: 10px 20px 15px rgb(20,20,20);
 }
 
 footer {
     position: relative;
     display: flex;
     margin-left: 15px;
-    
 }
 
 .home {
@@ -418,18 +422,32 @@ footer {
 }
 
 .gitproject{
-    display: block;
+    display: inline-block;
    background-color: rgb(70, 70, 70);
     border-radius: 10px;
     padding: 10px;
     color: white !important;
     margin: 10px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Mono', monospace;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 
 .gitproject a{
     color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
+.gitproject a:hover{
+    background-color: rgba(176, 196, 222, 0.542);
+    border-radius: 5px;
+    transition: 500ms ease;
+    cursor: pointer;
 }
 
 .gitproject.show {
@@ -441,6 +459,21 @@ footer {
 }
 
 @media (max-width: 800px) {
+    footer{
+
+    }
+    .footertxt{
+        width: 87%;
+        align-items: center;
+    }
+    iframe{
+        width: 97%;
+    }
+
+    .gitproject{
+        width: 90%;
+    }
+
     .sidenav{
         display: none;
     }
@@ -476,6 +509,12 @@ footer {
         -moz-user-select: none;
         -khtml-user-select: none;
         user-select: none;
+    }
+
+    .sm a{
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
     }
 
     .buttns {
