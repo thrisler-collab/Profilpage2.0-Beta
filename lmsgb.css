@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+.lmsgb{
+    background-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #444444;
+    border-width: 5px;
+
+    justify-content: center;
+    width: 30%;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    z-index: 23;
+    position: fixed;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+
+.lmsgb-h3{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lmsgb-ul{
+    list-style: none;
+
+}
+
+.lmsgb-a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+.lmsgb-a:hover{
+    transition: 500ms ease;
+    background-color: rgba(176, 196, 222, 0.542);
+    border-radius: 5px;
+}
+
+.lmsgb-li{
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lmsgb.show{
+    display: flex;
+}
+
+.lmsgb.notshown{
+    display: none;
+}
+
+.button1{
+    padding-bottom: 30px;
+    justify-content: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.hovbtn{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20%;
+    justify-content: right;
+}
+
+@media (max-width: 800px) {
+    .lmsgb{
+        margin-left: 2%;
+        margin-right: 1%;
+        width: 95%;
+    }
+
+    .lmsgb-li{
+        padding: 3px;
+    }
+
+    .lmsgb-h3{
+        margin-left: 5px;
+    }
+
+    .hovbtn{
+        margin-right: 5px;
+    }
+    
+}

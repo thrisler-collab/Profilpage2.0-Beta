@@ -12,6 +12,9 @@ const plbtn = document.querySelector('#btnspo');
 
 const gitbtn = document.querySelector('#gitbtn');
 const gitpr = document.querySelector('#gitpr');
+const showmore = document.querySelector('#showmore');
+const lmsgb = document.querySelector('#lmsgb-id');
+const lmsgbbtn = document.querySelector('#btnwl');
 
 alert("This page is still under development! Some elements may be incorrect or not displayed at all. I am happy about any feedback to the website");
 
@@ -85,5 +88,18 @@ plbtn.addEventListener("click", () =>  {
     plbtn.innerHTML = "&times"
  }
 
+
+});
+
+lmsgb.classList.add("notshown");
+
+showmore.addEventListener("click", () =>{
+    lmsgb.classList.remove("notshown");
+    lmsgb.classList.add("show");
+})
+
+lmsgbbtn.addEventListener("click", () =>{
+    lmsgb.classList.remove("show");
+    lmsgb.classList.add("notshown");
 })
 

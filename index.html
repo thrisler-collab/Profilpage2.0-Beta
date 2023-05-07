@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylemsgbox.css">
     <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="lmsgb.css">
     <link rel="icon" type="image/x-icon" href="icon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profilpage</title>
@@ -81,12 +82,26 @@
         <p class="closemsg" id="msgbtn">Okay</p>
     </div>
 
+    <div class="lmsgb" id="lmsgb-id">
 
+        <h5 class="lmsgb-h3">Weitere Links</h5>
+        <ul class="lmsgb-ul">
+            <li class="lmsgb-li"><a href="https://web.thrisler.tk" class="lmsgb-a">WebApps</a> </li>
+            <li class="lmsgb-li"><a href="https://testing.thrisler.tk" class="lmsgb-a">Public Test Area</a> </li>
+            <li class="lmsgb-li"><a href="https://web.thrisler.tk/archiv" class="lmsgb-a">Archive</a></li>
+        </ul>
+        <div class="hovbtn">
+            <p class="button1" id="btnwl">&times;</p>
+        </div>
+    </div>
 
 
     <div class="profil" id="pr">
         <div class="close">
             <p class="button1" id="btn">&times;</p>
+        </div>
+        <div class="banner">
+            <img class="banner" src="banner.png" width="800" height="260" alt="banner" oncontextmenu="return false;">
         </div>
         <div class="profilbild">
             <img class="pprofilbild" src="ppp.png" width="736" height="736" oncontextmenu="return false;"
@@ -97,6 +112,10 @@
             <p class="name"><b>Thrisler</b></p>
             <img class="tick" id="tickbtn" src="tick.png" title="Verifizierter Account" width="640" height="640"
                 oncontextmenu="return false;">
+
+        </div>
+        <div class="busername2">
+            <p class="username2">@thrisler</p>
         </div>
         <div class="bio">
             <p>🇦🇹18 || #esport 🎮💛 || 🟣Streamer on #twitch 🟣|| Team B42 || #overwatch2 #rocketleague 🎥
@@ -105,11 +124,11 @@
         </div>
         <div class="details" id="einklappen">
             <ul>
-                <li><u><b>Location:</b></u>Vienna AT</li>
-                <li><u><b>Games:</b></u> Overwatch2, Hogwarts Legacy, Forza Horizen 5, NFS Heat, GTA, Satisfactory, Minecraft, Cyberpunk 2077</li>
-                <li><u><b>Languages:</b></u> German, English</li>
-                <li><u><b>Discord:</b></u> тняιѕℓєя#2444</li>
-                <li><u><b>Nintendo Switch:</b></u> SW-6461-0322-7437</li>
+                <li><img src="icons-bio/location.png" width="16" height="16" alt="Location" oncontextmenu="return false;"> Vienna AT</li>
+                <li><img src="Icons-bio/games.png" width="16" height="16" alt="Games" oncontextmenu="return false;"> Overwatch2, Hogwarts Legacy, Forza Horizen 5, NFS Heat, GTA, Satisfactory, Minecraft, Cyberpunk 2077</li>
+                <li><img src="Icons-bio/languages.png" width="16" height="16" alt="Languages" oncontextmenu="return false;"> German, English</li>
+                <li><img src="Icons-bio/discord.png" width="16" height="16" alt="Discord" oncontextmenu="return false;"> тняιѕℓєя#2444</li>
+                <li><img src="Icons-bio/switch.png" width="16"  height="16" alt="Switch" oncontextmenu="return false;"> SW-6461-0322-7437</li>
             </ul>
 
             <div class="sm">
@@ -264,10 +283,16 @@
                 Try Hack Me
             </button>
         </a>
+        <br>
+          <hr>
+            <button id="showmore">
+                Mehr Anzeigen
+            </button>
+
     </div>
 
     <footer>
-        <p class="footertxt">© Thrisler 2022 - Update:2.5.0-BETA </p>
+        <p class="footertxt">© Thrisler 2022 - Update:2.5.0-BETA 2</p>
     </footer>
 
     <script src="index.js"></script>

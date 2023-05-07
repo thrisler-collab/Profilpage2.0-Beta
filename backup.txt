@@ -1,0 +1,51 @@
+<div class="profil" id="pr">
+        <div class="close">
+            <p class="button1" id="btn">&times;</p>
+        </div>
+        <div class="profilbild">
+            <img class="pprofilbild" src="ppp.png" width="736" height="736" oncontextmenu="return false;"
+                alt="Profile Picture">
+        </div>
+        <br>
+        <div class="username">
+            <p class="name"><b>Thrisler</b></p>
+            <img class="tick" id="tickbtn" src="tick.png" title="Verifizierter Account" width="640" height="640"
+                oncontextmenu="return false;">
+        </div>
+        <div class="bio">
+            <p>🇦🇹18 || #esport 🎮💛 || 🟣Streamer on #twitch 🟣|| Team B42 || #overwatch2 #rocketleague 🎥
+                || Business : management@thrisler.tk 📩 ||
+                🤘🤟I'm Alex (18) I live in Austria. I like to play games with my friends, coding or creating artworks</p>
+        </div>
+        <div class="details" id="einklappen">
+            <ul>
+                <li><u><b>Location:</b></u>Vienna AT</li>
+                <li><u><b>Games:</b></u> Overwatch2, Hogwarts Legacy, Forza Horizen 5, NFS Heat, GTA, Satisfactory, Minecraft, Cyberpunk 2077</li>
+                <li><u><b>Languages:</b></u> German, English</li>
+                <li><u><b>Discord:</b></u> тняιѕℓєя#2444</li>
+                <li><u><b>Nintendo Switch:</b></u> SW-6461-0322-7437</li>
+            </ul>
+
+            <div class="sm">
+                <a target="_blank" href="https://twitter.com/thrisler"><img src="icons/twitter.png" width="84"
+                        height="84" alt="Twitter"></a>
+                <a target="_blank" href="https://instagram.com/thrisler"><img src="icons/instagram.png" width="80"
+                        height="80" alt="Instagram"></a>
+                <a target="_blank" href="https://youtube.com/thrisler"><img src="icons/youtube.png" width="78"
+                        height="78" alt="Youtube"></a>
+                <a target="_blank" href="https://twitch.tv/thrisler"><img src="icons/twitch.png" width="256"
+                        height="256" alt="Twitch"></a>
+                <a target="_blank" href="https://tiktok.com/@thrisler"><img src="icons/tiktok.png" width="82"
+                        height="82" alt="TikTok"></a>
+                <a target="_blank" href="https://medibang.com/author/23811604/"><img src="icons/artstreet.png"
+                        width="280" height="280" alt="ArtStreet"></a>
+                <a target="_blank" href="https://github.com/thrisler-collab"><img src="icons/github.png" width="360" height="361" alt="GitHub"></a>
+                <a target="_blank"
+                    href="https://open.spotify.com/user/dahm9mr9itqpq7essl0z597o6?si=2278ef075f804ef2"><img
+                        src="icons/spotify.png" width="80" height="80" alt="Spotify"></a>
+                <a target="_blank" href="mailto:management@thrisler.tk"><img src="icons/mail.png" width="84" height="84"
+                        alt="Mail"></a>
+            </div>
+        </div>
+
+    </div>
