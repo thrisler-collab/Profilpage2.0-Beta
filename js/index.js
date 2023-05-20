@@ -16,8 +16,6 @@ const showmore = document.querySelector('#showmore');
 const lmsgb = document.querySelector('#lmsgb-id');
 const lmsgbbtn = document.querySelector('#btnwl');
 
-alert("This page is still under development! Some elements may be incorrect or not displayed at all. I am happy about any feedback to the website");
-
 bgs.classList.add('show');
 ek.classList.add("show");
 pl.classList.add("show");

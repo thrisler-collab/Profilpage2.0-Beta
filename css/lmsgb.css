@@ -62,11 +62,12 @@
     display: none;
 }
 
-.button1{
+.button12{
     padding-bottom: 30px;
     justify-content: right;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .hovbtn{
