@@ -1,5 +1,4 @@
 
-
 const ek = document.querySelector("#einklappen");
 const but = document.querySelector("#btn");
 const tickbtn = document.querySelector('#tickbtn');
