@@ -20,6 +20,10 @@ ek.classList.add("show");
 pl.classList.add("show");
 gitpr.classList.add("show");
 
+window.addEventListener("resize", (event) => {
+    changeBackgroundIMG();
+});
+
 but.addEventListener("click", () => {
     if(ek.classList.contains("show")){
         ek.classList.remove("show"); 
@@ -102,8 +106,8 @@ lmsgbbtn.addEventListener("click", () =>{
 
 function changeBackgroundIMG(){
     if (window.innerWidth < 800){
-        document.getElementById("backgr").src = "src/m3.jpg"
-        console.log("zugasd")
+        document.getElementById("backgr").src = "src/m1.jpg"
+        console.log("gewechselt")
     }
     if (window.innerWidth > 800){
         document.getElementById("backgr").src = "src/bg1.png"
