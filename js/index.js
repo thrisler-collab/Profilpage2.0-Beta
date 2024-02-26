@@ -100,3 +100,12 @@ lmsgbbtn.addEventListener("click", () =>{
     lmsgb.classList.add("notshown");
 })
 
+function changeBackgroundIMG(){
+    if (window.innerWidth < 800){
+        document.getElementById("backgr").src = "src/m3.jpg"
+        console.log("zugasd")
+    }
+    if (window.innerWidth > 800){
+        document.getElementById("backgr").src = "src/bg1.png"
+    }
+}

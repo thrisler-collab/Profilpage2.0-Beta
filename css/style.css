@@ -77,7 +77,7 @@ body {
 
 #particles-js {
     height: 100%;
-    background: RGB(28, 28, 28);
+    background: RGBA(28, 28, 28, 0.8);
     position: fixed;
     top: 0;
     left: 0;
@@ -606,4 +606,16 @@ hr{
     .badges {
         display: block;
     }
+}
+
+#backgr{
+    width: 100% !important;
+    height: 100% !important;
+    background: RGB(28, 28, 28);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    user-select: none;
 }

@@ -49,3 +49,16 @@
         </div>
 
     </div>
+
+
+    #backgr{
+        width: 100% !important;
+        height: 100% !important;
+        background: RGB(28, 28, 28);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        user-select: none;
+    }
