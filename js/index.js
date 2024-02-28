@@ -1,56 +1,56 @@
 
-const ek = document.querySelector("#einklappen");
-const but = document.querySelector("#btn");
-const tickbtn = document.querySelector('#tickbtn');
+const profileSecoundPartHide = document.querySelector("#einklappen");
+const profileClosingButton = document.querySelector("#btn");
+const verfiedTickOnProfile = document.querySelector('#tickbtn');
 const msgbox = document.querySelector('#msg');
-const msgbtn = document.querySelector('#msgbtn');
+const msgBoxClosingButton = document.querySelector('#msgbtn');
 const badges = document.getElementById('btnbadges');
-const pl = document.querySelector('#playlists');
-const bgs = document.querySelector('.itc');
-const plbtn = document.querySelector('#btnspo');
+const playlists = document.querySelector('#playlists');
+const badgesITC = document.querySelector('.itc');
+const spotifyClosingButton = document.querySelector('#btnspo');
 
-const gitbtn = document.querySelector('#gitbtn');
-const gitpr = document.querySelector('#gitpr');
-const showmore = document.querySelector('#showmore');
-const lmsgb = document.querySelector('#lmsgb-id');
-const lmsgbbtn = document.querySelector('#btnwl');
+const githubClosingButton = document.querySelector('#gitbtn');
+const githubProjects = document.querySelector('#gitpr');
+const showMoreButton = document.querySelector('#showmore');
+const moreLinksMsgBox = document.querySelector('#lmsgb-id');
+const moreLinksMsgBoxClosingButton = document.querySelector('#btnwl');
 
-bgs.classList.add('show');
-ek.classList.add("show");
-pl.classList.add("show");
-gitpr.classList.add("show");
+badgesITC.classList.add('show');
+profileSecoundPartHide.classList.add("show");
+playlists.classList.add("show");
+githubProjects.classList.add("show");
 
 window.addEventListener("resize", (event) => {
     changeBackgroundIMG();
 });
 
-but.addEventListener("click", () => {
-    if(ek.classList.contains("show")){
-        ek.classList.remove("show"); 
-        ek.classList.add("notshown")
-        but.innerHTML = "□"
+profileClosingButton.addEventListener("click", () => {
+    if(profileSecoundPartHide.classList.contains("show")){
+        profileSecoundPartHide.classList.remove("show");
+        profileSecoundPartHide.classList.add("notshown")
+        profileClosingButton.innerHTML = "□"
     } else {
-        ek.classList.add("show");
-        ek.classList.remove("notshown")
-        but.innerHTML = "&times"
+        profileSecoundPartHide.classList.add("show");
+        profileSecoundPartHide.classList.remove("notshown")
+        profileClosingButton.innerHTML = "&times"
     }
 
 });
 
-gitbtn.addEventListener("click", () => {
-    if(gitpr.classList.contains("show")){
-        gitpr.classList.remove("show");
-        gitpr.classList.add("notshown")
-        gitbtn.innerHTML = "□"
+githubClosingButton.addEventListener("click", () => {
+    if(githubProjects.classList.contains("show")){
+        githubProjects.classList.remove("show");
+        githubProjects.classList.add("notshown")
+        githubClosingButton.innerHTML = "□"
     } else {
-        gitpr.classList.add("show");
-        gitpr.classList.remove("notshown")
-        gitbtn.innerHTML = "&times"
+        githubProjects.classList.add("show");
+        githubProjects.classList.remove("notshown")
+        githubClosingButton.innerHTML = "&times"
     }
 
 });
 
-tickbtn.addEventListener("click", () => {
+verfiedTickOnProfile.addEventListener("click", () => {
     if(msgbox.classList.contains("show")){
        
     } else {
@@ -59,49 +59,49 @@ tickbtn.addEventListener("click", () => {
     }
 })
 
-msgbtn.addEventListener("click", () => {
+msgBoxClosingButton.addEventListener("click", () => {
     msgbox.classList.remove("show"); 
     msgbox.classList.add("notshown");
 });
 
 badges.addEventListener("click", () => {
-    if(bgs.classList.contains("show")){
-        bgs.classList.remove("show");
-        bgs.classList.add("notshown")
+    if(badgesITC.classList.contains("show")){
+        badgesITC.classList.remove("show");
+        badgesITC.classList.add("notshown")
         badges.innerHTML = "□"
     } else {
-        bgs.classList.add("show");
-        bgs.classList.remove("notshown")
+        badgesITC.classList.add("show");
+        badgesITC.classList.remove("notshown")
         badges.innerHTML = "&times"
     }
 });
 
 
 
-plbtn.addEventListener("click", () =>  {
- if(pl.classList.contains("show")){
-    pl.classList.remove("show");
-    pl.classList.add("notshown")
-    plbtn.innerHTML = "□"
+spotifyClosingButton.addEventListener("click", () =>  {
+ if(playlists.classList.contains("show")){
+    playlists.classList.remove("show");
+    playlists.classList.add("notshown")
+    spotifyClosingButton.innerHTML = "□"
  } else {
-    pl.classList.add("show");
-    pl.classList.remove("notshown")
-    plbtn.innerHTML = "&times"
+    playlists.classList.add("show");
+    playlists.classList.remove("notshown")
+    spotifyClosingButton.innerHTML = "&times"
  }
 
 
 });
 
-lmsgb.classList.add("notshown");
+moreLinksMsgBox.classList.add("notshown");
 
-showmore.addEventListener("click", () =>{
-    lmsgb.classList.remove("notshown");
-    lmsgb.classList.add("show");
+showMoreButton.addEventListener("click", () =>{
+    moreLinksMsgBox.classList.remove("notshown");
+    moreLinksMsgBox.classList.add("show");
 })
 
-lmsgbbtn.addEventListener("click", () =>{
-    lmsgb.classList.remove("show");
-    lmsgb.classList.add("notshown");
+moreLinksMsgBoxClosingButton.addEventListener("click", () =>{
+    moreLinksMsgBox.classList.remove("show");
+    moreLinksMsgBox.classList.add("notshown");
 })
 
 function changeBackgroundIMG(){
