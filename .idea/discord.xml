@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DiscordProjectSettings">
+<<<<<<< HEAD
     <option name="show" value="DISABLE" />
+=======
+    <option name="show" value="ASK" />
+>>>>>>> cf6f853fef57375192753eb9b362add408d997c9
     <option name="description" value="" />
   </component>
 </project>
