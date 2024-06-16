@@ -20,8 +20,10 @@ profileSecoundPartHide.classList.add("show");
 playlists.classList.add("show");
 githubProjects.classList.add("show");
 
+window.addEventListener("resize", changeBackgroundIMG);
 window.addEventListener("resize", (event) => {
     changeBackgroundIMG();
+
 });
 
 profileClosingButton.addEventListener("click", () => {
@@ -105,11 +107,16 @@ moreLinksMsgBoxClosingButton.addEventListener("click", () =>{
 })
 
 function changeBackgroundIMG(){
+    var img = new Image();
+    img.onload = function() {
+        document.getElementById("backgr").src = this.src;
+    }
     if (window.innerWidth < 800){
-        document.getElementById("backgr").src = "src/m1.jpg"
-        console.log("gewechselt")
+        img.src = "src/m1.jpg";
+        //console.log("gewechselt");
     }
     if (window.innerWidth > 800){
-        document.getElementById("backgr").src = "src/bg1.png"
+        img.src = "src/bg1.jpg";
     }
+
 }

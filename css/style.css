@@ -421,7 +421,7 @@ footer {
 }
 
 .itc {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -463,7 +463,7 @@ footer {
 }
 
 .itc.show{
-    display: block;
+    display: flex;
 }
 
 .itc.notshown{
@@ -604,6 +604,14 @@ hr{
     }
 
     .badges {
+        display: block;
+    }
+
+    .itc{
+        display: block;
+    }
+
+    .itc.show{
         display: block;
     }
 }
